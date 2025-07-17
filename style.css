@@ -1,0 +1,83 @@
+@keyframes fadeSlideUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+.fade-slide-up {
+  animation: fadeSlideUp 1s ease-out both;
+  }
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Elegant scroll-triggered zoom out for How I Work cards */
+@keyframes zoomOut {
+  0% {
+    opacity: 0;
+    transform: scale(1.15) translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+.animate-zoom-out {
+  animation: zoomOut 1s cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+
+/* Elegant move-in for Journey blocks */
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.animate-move-in {
+  animation: moveInLeft 1s cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+.journey-block:nth-child(even).animate-move-in {
+  animation: moveInRight 1s cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+
+/* Modal enhancements */
+#projectModal .bg-white {
+  box-shadow: 0 8px 32px 0 rgba(105, 69, 8, 0.25), 0 1.5px 8px 0 #A66E0D;
+  border: 2px solid #015EA6;
+  animation: fadeSlideUp 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+#projectModal.show {
+  display: flex;
+}
+#projectModal .rounded-xl {
+  transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+#projectModal .rounded-xl:hover {
+  transform: scale(1.02);
+}
+
+

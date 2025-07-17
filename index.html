@@ -1,1 +1,522 @@
-Hello World
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Alex Thu Vu's Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body class="bg-white text-[#694508] antialiased">
+    <a href="#how-i-work" class="sr-only focus:not-sr-only absolute left-2 top-2 bg-[#015EA6] text-white px-4 py-2 rounded z-50">Skip to main content</a>
+    <!-- Banner Section -->
+    <section
+      id="banner"
+      class="w-full bg-[url('assets/head_banners/banner_03.jpg')] bg-cover bg-center bg-no-repeat border-b border-[#333333] px-6 py-10"
+    >
+      <div
+        class="max-w-6xl mx-auto flex flex-col items-center justify-center text-center space-y-6"
+      >
+        <!-- Intro Text -->
+        <header
+          class="bg-white/20 backdrop-blur-md px-6 py-6 rounded-md shadow-md flex justify-center text-center fade-slide-up"
+        >
+          <img src="assets/alex_header_logo.png" width="550" />
+          <!-- <h2 class="text-3xl font-bold">Salut! Je m'appelle Alex 🤓</h2>
+          <p class="text-xl mt-2">A Full-Stack Creator</p>> -->
+        </header>
+      </div>
+    </section>
+
+    <!-- HOW I WORK & BEYOND THE CODE -->
+    <section
+      class="bg-white py-12 border-t border-[#333333] border-b border-[#333333]" id="how-i-work" role="main"
+    >
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-extrabold text-center mb-10 text-[#694508] tracking-tight">
+          CREATIVITY BEYOND THE CODE
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 items-stretch">
+          <!-- Step 1 -->
+          <div class="think-card flex flex-col items-center text-center min-h-[340px] md:min-w-[220px] bg-gradient-to-br from-[#A66E0D]/90 to-[#BDA18E]/60 rounded-2xl border border-[#015EA6] shadow-lg p-8 mb-6 md:mb-0">
+            <div class="w-20 h-20 flex items-center justify-center rounded-full bg-white/70 shadow mb-4">
+              <img src="assets/art_palette.gif" alt="Creative Designing" width="60" class="rounded-full" />
+            </div>
+            <div class="backdrop-blur-md bg-white/60 rounded-xl px-4 py-3 w-full mt-auto">
+              <h3 class="text-xl font-extrabold mb-2 text-[#694508] drop-shadow-sm">UX-First Thinker</h3>
+              <p class="text-base font-medium text-[#3a2604] drop-shadow-sm">Designing intuitive, joyful user flows that work for everyone.</p>
+            </div>
+          </div>
+          <!-- Step 2 -->
+          <div class="think-card flex flex-col items-center text-center min-h-[340px] md:min-w-[220px] bg-gradient-to-br from-[#015EA6]/90 to-[#A66E0D]/60 rounded-2xl border border-[#942569] shadow-lg p-8 mb-6 md:mb-0">
+            <div class="w-20 h-20 flex items-center justify-center rounded-full bg-white/70 shadow mb-4">
+              <img src="assets/creative-thinking.gif" alt="creative thinking" width="60" class="rounded-full" />
+            </div>
+            <div class="backdrop-blur-md bg-white/60 rounded-xl px-4 py-3 w-full mt-auto">
+              <h3 class="text-xl font-extrabold mb-2 text-[#015EA6] drop-shadow-sm">Creative EdTech Developer</h3>
+              <p class="text-base font-medium text-[#0a2a4a] drop-shadow-sm">Building fun, language-learning tools for kids and curious minds.</p>
+            </div>
+          </div>
+          <!-- Step 3 -->
+          <div class="think-card flex flex-col items-center text-center min-h-[340px] md:min-w-[220px] bg-gradient-to-br from-[#942569]/90 to-[#BDA18E]/60 rounded-2xl border border-[#A66E0D] shadow-lg p-8 mb-6 md:mb-0">
+            <div class="w-20 h-20 flex items-center justify-center rounded-full bg-white/70 shadow mb-4">
+              <img src="assets/gear_icon.gif" alt="Indie App Maker" width="60" class="rounded-full" />
+            </div>
+            <div class="backdrop-blur-md bg-white/60 rounded-xl px-4 py-3 w-full mt-auto">
+              <h3 class="text-xl font-extrabold mb-2 text-[#942569] drop-shadow-sm">Indie App Maker</h3>
+              <p class="text-base font-medium text-[#3a113a] drop-shadow-sm">Turning ideas into interactive experiences using lightweight, smart tools.</p>
+            </div>
+          </div>
+          <!-- Step 4 (new, unique color) -->
+          <div class="think-card flex flex-col items-center text-center min-h-[340px] md:min-w-[220px] bg-gradient-to-br from-[#015EA6]/90 to-[#942569]/60 rounded-2xl border border-[#A66E0D] shadow-lg p-8">
+            <div class="w-20 h-20 flex items-center justify-center rounded-full bg-white/70 shadow mb-4">
+              <img src="assets/art_palette.gif" alt="Creative Designing" width="60" class="rounded-full" />
+            </div>
+            <div class="backdrop-blur-md bg-white/60 rounded-xl px-4 py-3 w-full mt-auto">
+              <h3 class="text-xl font-extrabold mb-2 text-[#694508] drop-shadow-sm">UX-First Thinker</h3>
+              <p class="text-base font-medium text-[#3a2604] drop-shadow-sm">Designing intuitive, joyful user flows that work for everyone.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MY PROJECTS -->
+    <section
+      class="bg-[#F9EFDA] text-[#694508] py-16 px-6 border-b border-t border-[#333333]"
+    >
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-4xl font-bold text-center mb-12">MY FEATURED PROJECTS</h2>
+
+        <!-- Carousel Wrapper -->
+        <div class="relative flex items-center justify-center px-4">
+          <!-- Left Arrow -->
+          <button
+            id="scrollLeft"
+            class="absolute left-0 sm:left-[-2rem] top-1/2 -translate-y-1/2 z-10 bg-white p-2 sm:p-3 rounded-full shadow-md hover:scale-110 transition"
+            aria-label="Scroll Left"
+          >
+            &#8592;
+          </button>
+
+          <!-- Project Carousel -->
+          <div
+            id="carousel"
+            class="flex overflow-x-auto gap-6 scroll-smooth px-8 sm:px-6 md:px-8 py-4 hide-scrollbar"
+            tabindex="0"
+          >
+            <!-- Project Card 1 -->
+            <div
+              class="project-card min-w-[20rem] max-w-[20rem] h-[28rem] bg-[#942569] rounded-xl p-4 shadow-lg text-white flex flex-col justify-between"
+              data-title="LingoChic"
+              data-description="A playful language-learning app for kids: build sentences by dragging characters, hear words in English & Vietnamese, and watch signs in English Sign Language."
+              data-link="#"
+              data-img="assets/demo_LingoChic.png"
+              data-type="EdTech Mobile App"
+              data-unique="Blends playful drag-and-drop with trilingual learning and sign language for a truly inclusive experience."
+              data-video="https://www.w3schools.com/html/mov_bbb.mp4"
+              data-bg="#942569"
+            >
+              <div>
+                <h3 class="text-lg font-semibold mb-2">LingoChic</h3>
+                <p class="text-sm">
+                  A playful language-learning app for kids: build sentences by
+                  dragging characters, hear words in English & Vietnamese, and
+                  watch signs in English Sign Language.
+                </p>
+                <img
+                  src="assets/demo_LingoChic.png"
+                  class="mt-4 w-full max-h-60 object-contain rounded-lg"
+                />
+              </div>
+              <button
+                class="learn-more-btn bg-white text-[#694508] font-semibold py-2 mt-4 rounded-lg shadow hover:-translate-y-1 transition"
+              >
+                Learn more
+              </button>
+            </div>
+
+            <!-- Project Card 2 -->
+            <div
+              class="project-card min-w-[20rem] max-w-[20rem] h-[28rem] bg-[#015EA6] rounded-xl p-4 shadow-lg text-white flex flex-col justify-between"
+              data-title="Mini Learning LSF App"
+              data-description="Explore French Sign Language through English prompts + webcam gesture recognition."
+              data-link="#"
+              data-img="assets/LSF_Demo.png"
+              data-type="AI-Powered Language Tool"
+              data-unique="Uses real-time webcam gesture recognition to make sign language learning interactive and fun."
+              data-video="https://www.w3schools.com/html/movie.mp4"
+              data-bg="#015EA6"
+            >
+              <div>
+                <h3 class="text-lg font-semibold mb-2">
+                  Mini Learning LSF App
+                </h3>
+                <p class="text-sm">
+                  Explore French Sign Language through English prompts + webcam
+                  gesture recognition.
+                </p>
+                <img
+                  src="assets/LSF_Demo.png"
+                  class="mt-4 w-full max-h-60 object-contain rounded-lg"
+                />
+              </div>
+              <button
+                class="learn-more-btn bg-white text-[#694508] font-semibold py-2 mt-4 rounded-lg shadow hover:-translate-y-1 transition"
+              >
+                Learn more
+              </button>
+            </div>
+
+            <!-- Project Card 3-->
+            <div
+              class="project-card min-w-[20rem] max-w-[20rem] h-[28rem] bg-[#BDA18E] rounded-xl p-4 shadow-lg text-white flex flex-col justify-between"
+              data-title="Saigon Kava Merchant Design"
+              data-description="All chibi dishes are illustrated from real meals I used to serve at my kitchen — giving each design a story, a flavor, and a soul. Printed on shirts, mugs, and more."
+              data-link="#"
+              data-img="assets/demo_LingoChic.png"
+              data-type="Brand Illustration"
+              data-unique="Every design is a story: real meals, real memories, turned into charming chibi art."
+              data-video="https://www.w3schools.com/html/mov_bbb.mp4"
+              data-bg="#BDA18E"
+            >
+              <div>
+                <h3 class="text-lg font-semibold mb-2">
+                  Saigon Kava Merchant Design
+                </h3>
+                <p class="text-sm">
+                  All chibi dishes are illustrated from real meals I used to
+                  serve at my kitchen — giving each design a story, a flavor,
+                  and a soul. Printed on shirts, mugs, and more.
+                </p>
+                <img
+                  src="assets/demo_LingoChic.png"
+                  class="mt-4 w-full max-h-60 object-contain rounded-lg"
+                />
+              </div>
+              <button
+                class="learn-more-btn bg-white text-[#694508] font-semibold py-2 mt-4 rounded-lg shadow hover:-translate-y-1 transition"
+              >
+                Learn more
+              </button>
+            </div>
+
+            <!-- Project Card 4-->
+            <div
+              class="project-card min-w-[20rem] max-w-[20rem] h-[28rem] bg-[#A66E0D] rounded-xl p-4 shadow-lg text-white flex flex-col justify-between"
+              data-title="IdeaNest"
+              data-description="One of my big project for myself to create the best idea-project mananagement app for a chaotic mind like me"
+              data-link="#"
+              data-img="assets/demo_LingoChic.png"
+              data-type="Productivity Web App"
+              data-unique="Designed for creative chaos: organizes ideas visually, with a playful, nest-inspired interface."
+              data-video="https://www.w3schools.com/html/movie.mp4"
+              data-bg="#A66E0D"
+            >
+              <div>
+                <h3 class="text-lg font-semibold mb-2">
+                  IdeaNest
+                </h3>
+                <p class="text-sm">
+                  One of my big project for myself to create the best idea-project mananagement app for a chaotic mind like me
+                </p>
+                <img
+                  src="assets/demo_LingoChic.png"
+                  class="mt-4 w-full max-h-60 object-contain rounded-lg"
+                />
+              </div>
+              <button
+                class="learn-more-btn bg-white text-[#694508] font-semibold py-2 mt-4 rounded-lg shadow hover:-translate-y-1 transition"
+              >
+                Learn more
+              </button>
+            </div>
+
+            <!-- Project Card 5-->
+            <div
+              class="project-card min-w-[20rem] max-w-[20rem] h-[28rem] bg-[#015EA6] rounded-xl p-4 shadow-lg text-white flex flex-col justify-between"
+              data-title="LuxeRico"
+              data-description="A private dating service and soft gigs listiing for invites - only"
+              data-link="#"
+              data-img="assets/demo_LingoChic.png"
+              data-type="Private Social Platform"
+              data-unique="Invitation-only, blending exclusivity with curated opportunities for meaningful connections."
+              data-video="https://www.w3schools.com/html/mov_bbb.mp4"
+              data-bg="#015EA6"
+            >
+              <div>
+                <h3 class="text-lg font-semibold mb-2">
+                  LuxeRico
+                </h3>
+                <p class="text-sm">
+                  A private dating service and soft gigs listiing for invites - only
+                </p>
+                <img
+                  src="assets/demo_LingoChic.png"
+                  class="mt-4 w-full max-h-60 object-contain rounded-lg"
+                />
+              </div>
+              <button
+                class="learn-more-btn bg-white text-[#694508] font-semibold py-2 mt-4 rounded-lg shadow hover:-translate-y-1 transition"
+              >
+                Learn more
+              </button>
+            </div>
+          </div>
+
+          <!-- Right Arrow -->
+          <button
+            id="scrollRight"
+            class="absolute right-0 sm:right-[-1.25rem] top-1/2 -translate-y-1/2 z-10 bg-white p-2 sm:p-3 rounded-full shadow-md hover:scale-110 transition"
+            aria-label="Scroll Right"
+          >
+            &#8594;
+          </button>
+        </div>
+      </div>
+      <!-- Modal for Project Details -->
+      <div id="projectModal" class="fixed inset-0 bg-black/50 flex items-center justify-center z-50 hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="bg-white rounded-2xl p-10 max-w-2xl w-full relative shadow-2xl">
+          <button id="closeModal" class="absolute top-2 right-2 text-3xl text-[#694508] hover:scale-110" aria-label="Close">&times;</button>
+          <h3 id="modalTitle" class="text-3xl font-bold mb-2 text-[#694508]"></h3>
+          <div class="flex flex-col md:flex-row gap-6 mb-4">
+            <img id="modalImg" src="" alt="Project image" class="w-full md:w-1/2 max-h-60 object-contain rounded-lg" />
+            <div class="flex-1 flex flex-col gap-2">
+              <span id="modalType" class="inline-block bg-[#015EA6] text-white px-3 py-1 rounded-full text-sm font-semibold mb-1"></span>
+              <span id="modalUnique" class="block text-[#942569] italic text-md mb-2"></span>
+              <p id="modalDesc" class="mb-2 text-[#694508]"></p>
+              <a id="modalLink" href="#" target="_blank" class="inline-block bg-[#015EA6] text-white px-4 py-2 rounded-lg font-semibold shadow hover:bg-[#942569] transition">Visit Project</a>
+            </div>
+          </div>
+          <div class="mb-2">
+            <label class="block text-[#694508] font-semibold mb-1">Demo Video:</label>
+            <video id="modalVideo" class="w-full rounded-lg border border-[#BDA18E]" controls poster="assets/demo_LingoChic.png">
+              <source src="" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="flex justify-center mt-6">
+            <button id="closeModalBottom" class="bg-[#015EA6] text-white px-6 py-2 rounded-lg font-semibold shadow hover:bg-[#942569] transition text-lg" aria-label="Close">Close</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MY TIMELINE EXP-->
+    <section
+      class="relative w-full py-10 px-4 bg-white border-b border-t border-[#BDA18E]"
+      id="journey"
+    >
+      <h2 class="text-3xl font-extrabold text-center mb-8 text-[#694508] tracking-tight">
+        MY ONGOING JOURNEY
+      </h2>
+      <div class="relative max-w-3xl mx-auto flex flex-col gap-0">
+        <!-- Timeline vertical line -->
+        <div class="absolute left-1/2 -translate-x-1/2 top-8 bottom-8 w-1 bg-gradient-to-b from-[#BDA18E] to-[#015EA6] z-0 rounded-full"></div>
+        <!-- Present Block (top, right side) -->
+        <div class="journey-block relative z-10 flex items-center mb-0">
+          <div class="w-1/2"></div>
+          <div class="w-8 flex justify-center items-center">
+            <div class="w-4 h-4 bg-[#5CBF8A] border-4 border-white rounded-full z-10 shadow"></div>
+          </div>
+          <div class="w-1/2 flex justify-start pl-4">
+            <div class="max-w-md bg-[#E9FCD6] text-[#1B4D3E] p-5 rounded-2xl border border-[#BDA18E] shadow-md transition-all duration-500 ease-out hover:-translate-y-1">
+              <p class="text-xs mb-1 font-semibold">Present</p>
+              <h3 class="text-lg font-bold mb-1">Freelance Indie App Maker</h3>
+              <p class="text-sm">Designing and building innovative digital products for global clients, with a focus on elegant UX, robust code, and creative solutions. Always learning, always shipping.</p>
+            </div>
+          </div>
+        </div>
+        <!-- SAIGON KAVA Block -->
+        <div class="journey-block relative z-10 flex items-center mb-0">
+          <div class="w-1/2 flex justify-end pr-4">
+            <div class="max-w-md bg-[#F6E9D7] text-[#7A4A0D] p-5 rounded-2xl border border-[#BDA18E] shadow-md transition-all duration-500 ease-out hover:-translate-y-1">
+              <p class="text-xs mb-1 font-semibold">2019-2024</p>
+              <h3 class="text-lg font-bold mb-1">SAIGON KAVA</h3>
+              <p class="text-sm">Founded and operated Šiauliai's first authentic Vietnamese eatery (4.8 stars on Google). Closed in Dec 2024 after facing excessive bureaucracy and regulatory barriers in Lithuania.</p>
+            </div>
+          </div>
+          <div class="w-8 flex justify-center items-center">
+            <div class="w-4 h-4 bg-[#D1A46A] border-4 border-white rounded-full z-10 shadow"></div>
+          </div>
+          <div class="w-1/2"></div>
+        </div>
+        <!-- TechPaddle Block (right) -->
+        <div class="journey-block relative z-10 flex items-center mb-0">
+          <div class="w-1/2"></div>
+          <div class="w-8 flex justify-center items-center">
+            <div class="w-4 h-4 bg-[#6CA6D9] border-4 border-white rounded-full z-10 shadow"></div>
+          </div>
+          <div class="w-1/2 flex justify-start pl-4">
+            <div class="max-w-md bg-[#E6F0F8] text-[#0A2A4A] p-5 rounded-2xl border border-[#BDA18E] shadow-md transition-all duration-500 ease-out hover:-translate-y-1">
+              <p class="text-xs mb-1 font-semibold">2015-2018</p>
+              <h3 class="text-lg font-bold mb-1">TechPaddle</h3>
+              <p class="text-sm">Sales and Marketing Associate. Worked on-site and remotely across graphic design, interpreting, and supporting a small US firm.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Vietnam Jeep Tour Block (left) -->
+        <div class="journey-block relative z-10 flex items-center mb-0">
+          <div class="w-1/2 flex justify-end pr-4">
+            <div class="max-w-md bg-[#D6F5E9] text-[#1B4D3E] p-5 rounded-2xl border border-[#BDA18E] shadow-md transition-all duration-500 ease-out hover:-translate-y-1">
+              <p class="text-xs mb-1 font-semibold">2006-2012</p>
+              <h3 class="text-lg font-bold mb-1">Vietnam Jeep Tour</h3>
+              <p class="text-sm">Managed international sales, designed tours, coordinated suppliers, and delivered great service at the company.</p>
+            </div>
+          </div>
+          <div class="w-8 flex justify-center items-center">
+            <div class="w-4 h-4 bg-[#6CBF8A] border-4 border-white rounded-full z-10 shadow"></div>
+          </div>
+          <div class="w-1/2"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="relative mt-20">
+      <footer class="relative z-20 w-full min-w-0 max-w-6xl mx-auto px-2 sm:px-4 md:px-8">
+        <div class="w-full min-w-0 backdrop-blur-md bg-[#694508]/90 rounded-2xl shadow-2xl px-3 sm:px-6 md:px-16 py-8 sm:py-12 flex flex-col md:flex-row gap-8 md:gap-20 items-start justify-between border border-[#BDA18E]">
+          <!-- Contact -->
+          <div class="flex-1 min-w-[200px]">
+            <h3 class="text-lg font-bold mb-4 tracking-wide text-white">Contact</h3>
+            <p class="mb-2">
+              <a href="mailto:alexthuvu@gmail.com" class="underline hover:text-[#A66E0D] transition text-white">alexthuvu@gmail.com</a>
+            </p>
+            <p class="mb-4 text-white/80">Based in Thao Dien, Ho Chi Minh City</p>
+            <div class="flex gap-3 mt-2">
+              <a href="https://github.com/alexthuvu" target="_blank" aria-label="GitHub" class="w-10 h-10 flex items-center justify-center rounded-lg border-2 border-white bg-transparent hover:border-[#A66E0D] transition text-2xl text-white hover:text-[#A66E0D] focus:ring-2 focus:ring-[#A66E0D]">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://linkedin.com/in/alexthuvu" target="_blank" aria-label="LinkedIn" class="w-10 h-10 flex items-center justify-center rounded-lg border-2 border-white bg-transparent hover:border-[#A66E0D] transition text-2xl text-white hover:text-[#A66E0D] focus:ring-2 focus:ring-[#A66E0D]">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="mailto:alexthuvu@gmail.com" aria-label="Email" class="w-10 h-10 flex items-center justify-center rounded-lg border-2 border-white bg-transparent hover:border-[#A66E0D] transition text-2xl text-white hover:text-[#A66E0D] focus:ring-2 focus:ring-[#A66E0D]">
+                <i class="far fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+          <!-- Certificates -->
+          <div class="flex-1 min-w-[200px]">
+            <h3 class="text-lg font-bold mb-4 tracking-wide text-white">Education & Certificates</h3>
+            <ul class="list-disc list-inside space-y-1 text-white/80">
+              <li>B.S. in CS - UoPeople (2025 - Present)</li>
+              <li>B.A. in English - Nong Lam University (2004 - 2008)</li>
+              <li>Full-Stack Dev & More - FreeCodeCamp</li>
+            </ul>
+          </div>
+          <!-- Services -->
+          <div class="flex-1 min-w-[200px]">
+            <h3 class="text-lg font-bold mb-4 tracking-wide text-white">Services</h3>
+            <ul class="list-disc list-inside space-y-1 text-white/80">
+              <li>EdTech Prototyping</li>
+              <li>Interactive Story Apps</li>
+              <li>Graphic Design</li>
+              <li>UI / UX Design</li>
+              <li>Voice + AI Integration</li>
+            </ul>
+          </div>
+        </div>
+        <div class="text-center mt-8">
+          <span class="text-xs text-white/80">&copy; 2025 Alex Thu Vu. All rights reserved.</span>
+        </div>
+      </footer>
+    </div>
+    <script src="main.js"></script>
+    <script>
+      // Carousel logic
+      const carousel = document.getElementById('carousel');
+      const scrollLeftBtn = document.getElementById('scrollLeft');
+      const scrollRightBtn = document.getElementById('scrollRight');
+      scrollLeftBtn.addEventListener('click', () => {
+        carousel.scrollBy({ left: -350, behavior: 'smooth' });
+      });
+      scrollRightBtn.addEventListener('click', () => {
+        carousel.scrollBy({ left: 350, behavior: 'smooth' });
+      });
+
+      // Modal logic
+      const modal = document.getElementById('projectModal');
+      const closeModal = document.getElementById('closeModal');
+      const modalTitle = document.getElementById('modalTitle');
+      const modalDesc = document.getElementById('modalDesc');
+      const modalImg = document.getElementById('modalImg');
+      const modalLink = document.getElementById('modalLink');
+      const modalType = document.getElementById('modalType');
+      const modalUnique = document.getElementById('modalUnique');
+      const modalVideo = document.getElementById('modalVideo');
+      let lastFocusedBtn = null;
+      document.querySelectorAll('.learn-more-btn').forEach(btn => {
+        btn.addEventListener('click', function(e) {
+          lastFocusedBtn = btn;
+          const card = btn.closest('.project-card');
+          modalTitle.textContent = card.dataset.title;
+          modalDesc.textContent = card.dataset.description;
+          modalImg.src = card.dataset.img;
+          modalLink.href = card.dataset.link;
+          modalType.textContent = card.dataset.type || 'Digital Experience';
+          modalUnique.textContent = card.dataset.unique || 'A fresh, creative approach to digital learning and engagement.';
+          modalVideo.querySelector('source').src = card.dataset.video || '';
+          modalVideo.load();
+          modal.classList.remove('hidden');
+          // Set modal badge/button colors to match card
+          const mainColor = card.dataset.bg || '#015EA6';
+          modalType.style.background = mainColor;
+          modalLink.style.background = mainColor;
+          closeModalBottom.style.background = mainColor;
+          setTimeout(() => closeModal.focus(), 0);
+        });
+      });
+      function closeModalAll() {
+        modal.classList.add('hidden');
+        if (lastFocusedBtn) lastFocusedBtn.focus();
+      }
+      closeModal.addEventListener('click', closeModalAll);
+      closeModalBottom.addEventListener('click', closeModalAll);
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) closeModalAll();
+      });
+      // Trap focus inside modal
+      modal.addEventListener('keydown', function(e) {
+        if (modal.classList.contains('hidden')) return;
+        const focusable = modal.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+        if (e.key === 'Tab') {
+          if (e.shiftKey) {
+            if (document.activeElement === first) {
+              e.preventDefault();
+              last.focus();
+            }
+          } else {
+            if (document.activeElement === last) {
+              e.preventDefault();
+              first.focus();
+            }
+          }
+        }
+        if (e.key === 'Escape') {
+          closeModalAll();
+        }
+      });
+
+      // Scroll-triggered effects for How I Work
+      function animateOnScroll(selector, animationClass) {
+        const elements = document.querySelectorAll(selector);
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add(animationClass);
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.2 });
+        elements.forEach(el => observer.observe(el));
+      }
+      animateOnScroll('.think-card', 'animate-zoom-out');
+      animateOnScroll('.journey-block', 'animate-move-in');
+    </script>
+    <!-- Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  </body>
+</html>
